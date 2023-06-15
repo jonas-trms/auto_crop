@@ -19,5 +19,5 @@ Arguments: input path, output path, desired number of removed colums.
 $ ./auto_crop castle.png castle_cropped.png 400
 ```
 
-![](https://i.imgur.com/ilT20K7.png) ![](https://i.imgur.com/fd9SSz2.png) \
+![initial image](https://i.imgur.com/ilT20K7.png) ![reduced image](https://i.imgur.com/fd9SSz2.png) \
 60% of the columns have been removed.
