@@ -6,12 +6,12 @@ Columns of pixels of minimum energy (those containing the least detail) are iter
 You can compile with GCC by running the following command:
 
 ```
-$ gcc -o auto_crop main.c energy.c image_operations.c pixel_operations.c -lm
+$ gcc -o auto_crop src/main.c src/energy.c src/image_operations.c src/pixel_operations.c -lm
 ```
 
 ## Usage
 Images must be in `.png` format and grayscale. Here's the command for the auto-cropper:
-* `./main [args]` auto-crops the provided image. Arguments:
+* `./auto_crop [args]` auto-crops the provided image. Arguments:
   * `input` is the path to the `.png` image to be cropped.
   * `output` is the path to the cropped `.png` image.
   * `columns` is a `int` value equal to the number of colums to be removed.
