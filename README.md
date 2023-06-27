@@ -3,7 +3,7 @@
 Columns of pixels of minimum energy (those containing the least detail) are iteratively removed to reduce the size of the image while preserving its areas of interest.
 
 ## Compilation
-You can compile with GCC by running the following command:
+You can compile with `gcc` by running the following command:
 
 ```
 $ gcc -o auto_crop src/main.c src/energy.c src/image_operations.c src/pixel_operations.c -lm
